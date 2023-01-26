@@ -20,8 +20,9 @@ header {
 
 .main-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 1em;
+    flex-wrap: wrap;
 }
 
 .balance {
@@ -29,6 +30,7 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 1em;
+    flex-grow: 1;
 }
 
 #amount {
