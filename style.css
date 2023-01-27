@@ -25,6 +25,13 @@ header {
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 412px) {
+    .main-content {
+        flex-direction: column;
+        gap: 2em;
+    }
+}
+
 .balance {
     display: flex;
     flex-direction: column;
